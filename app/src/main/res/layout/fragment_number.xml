@@ -6,15 +6,29 @@
     android:layout_height="match_parent">
 
     <TextView
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_marginBottom="35dp"
+        android:background="@drawable/shape"
         android:id="@+id/question"
         android:text="Question"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
 
+    <LinearLayout
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/shape"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical">
     <EditText
+        android:gravity="center"
+        android:id="@+id/inputNumber"
         android:inputType="number"
         android:hint="Please Answer here only number "
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
-
+    </LinearLayout>
 </LinearLayout>
